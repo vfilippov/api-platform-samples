@@ -5,6 +5,7 @@ var targetRequestUrl =
 var req = new Request(targetRequestUrl, 'GET', request.headers);
 var exchange = httpClient.send(req);
 
+// Viktor Test
 exchange.waitForComplete();
 
 if (exchange.isSuccess()) {
